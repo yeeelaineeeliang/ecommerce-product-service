@@ -139,5 +139,5 @@ pipeline {
         failure { echo "FAILED — ${SERVICE_NAME} @ ${IMAGE_TAG}" }
         always  { cleanWs() }
     }
-
 }
+
