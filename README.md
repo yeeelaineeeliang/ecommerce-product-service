@@ -36,4 +36,4 @@ I went with Git Flow over simpler models like GitHub Flow because this project h
 Each microservice is independently deployable — the frontend shouldn't need to rebuild just because the order service changed. Separate repos enforce that boundary and make CI/CD pipelines simpler since each repo has its own Jenkinsfile and triggers.
 
 **Why branch protection rules?**
-Even working solo, branch protection forces me to go through PRs which creates a clear commit history and makes it obvious when and why changes were made. It also mirrors real-world team practices where no one pushes directly to main.
+Even working solo, branch protection forces me to go through PRs which creates a clear commit history and makes it obvious when and why changes were made. It also mirrors real-world team practices where no one pushes directly to main.// test
